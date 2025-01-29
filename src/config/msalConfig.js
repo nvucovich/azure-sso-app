@@ -2,13 +2,13 @@ import { PublicClientApplication } from "@azure/msal-browser";
 
 const MSAL_CONFIG = {
     auth: {
-        clientId: "Application_client_ID", // Replace with your Azure AD client ID
-        authority: "https://login.microsoftonline.com/YOUR_TENANT_NAME.onmicrosoft.com", // Replace with your tenant
+        clientId: "73206791-175d-4a10-9ec2-c1a550fcce8c", // Replace with your Azure AD client ID
+        authority: "https://login.microsoftonline.com/nathansorg2.onmicrosoft.com", // Replace with your tenant
         redirectUri: "http://localhost:3000",
     },
     cache: {
         cacheLocation: "localStorage",
-        storeAuthStateInCookie: false,
+        storeAuthStateInCookie: true,
     },
 };
 

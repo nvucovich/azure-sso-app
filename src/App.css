@@ -1,48 +1,18 @@
 .App {
     text-align: center;
-}
-
-.App-header {
-    background-color: #282c34;
-    padding: 20px;
-    color: white;
-}
-
-.container {
-    padding: 20px;
-}
-
-.error {
-    color: red;
-    margin: 10px 0;
-}
-
-.login-button, .logout-button {
-    background-color: #0078d4;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-.login-button:hover, .logout-button:hover {
-    background-color: #106ebe;
-}
-
-.logout-button {
-    background-color: #d83b01;
-}
-
-.logout-button:hover {
-    background-color: #a52b01;
-}
-
-.user-info {
-    margin: 20px 0;
-}
-
-.user-info h2 {
-    margin-bottom: 10px;
-}
+    padding: 8px;
+  }
+  
+  .navbarStyle {
+    padding: .5rem 1rem !important
+  }
+  
+  .title{
+    text-align: center;
+    padding: 8px;
+  }
+  
+  .profileContent {
+    padding: 8px;
+  
+  }
